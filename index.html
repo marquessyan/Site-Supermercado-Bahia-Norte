@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Yan Marques Soares, Diego Santos Oliveira" />
+    <link rel="stylesheet" href="style.css" />
     <meta
       name="description"
       content="Supermercado Bahia Norte, preços baixos todos os dias!"
@@ -18,15 +19,11 @@
     <header>
       <img src="img/logo.png" alt="Supermercado Bahia Norte" />
       <nav>
-        <div>
-          <input type="search" placeholder="Pesquise seus produtos aqui" />
-        </div>
-        <div>
-          <div><a href="index.html">Link</a></div>
-          <div><a href="index.html">Menu</a></div>
-          <div><a href="index.html">Link</a></div>
-          <div><a href="index.html">Link</a></div>
-          <div><a href="index.html">Link</a></div>
+        <input type="search" placeholder="Pesquise seus produtos aqui" />
+        <div class="links">
+          <a href="#tabela">Tabela</a>
+          <a href="#atendimento">Atendimento</a>
+          <a href="#contato">Contato</a>
         </div>
         <div><button id="light-dark">Light/Dark</button></div>
       </nav>
@@ -36,7 +33,320 @@
       /></a>
     </header>
     <main>
-      <div>
+      <section id="tabela">
+        <h3>Tabela Hortifruti:</h3>
+        <div>
+          <table>
+            <tr>
+              <th>Frutas</th>
+              <th>Preço</th>
+            </tr>
+            <tr>
+              <td>Abacate</td>
+              <td>R$ 08,99</td>
+            </tr>
+            <tr>
+              <td>Abacaxi</td>
+              <td>R$ 07,49</td>
+            </tr>
+            <tr>
+              <td>Ameixa Fresca</td>
+              <td>R$ 19,99</td>
+            </tr>
+            <tr>
+              <td>Atemoia</td>
+              <td>R$ 11,99</td>
+            </tr>
+            <tr>
+              <td>Banana da Prata</td>
+              <td>R$ 05,99</td>
+            </tr>
+            <tr>
+              <td>Banana da Terra</td>
+              <td>R$ 03,99</td>
+            </tr>
+            <tr>
+              <td>Banana d'Água</td>
+              <td>R$ 05,99</td>
+            </tr>
+            <tr>
+              <td>Banana Maçã</td>
+              <td>R$ 05,99</td>
+            </tr>
+            <tr>
+              <td>Coco Seco</td>
+              <td>R$ 10,99</td>
+            </tr>
+            <tr>
+              <td>Caqui</td>
+              <td>R$ 14,99</td>
+            </tr>
+            <tr>
+              <td>Goiaba</td>
+              <td>R$ 04,99</td>
+            </tr>
+            <tr>
+              <td>Graviola</td>
+              <td>R$ 02,99</td>
+            </tr>
+            <tr>
+              <td>Kiwi</td>
+              <td>R$ 29,99</td>
+            </tr>
+            <tr>
+              <td>Laranja</td>
+              <td>R$ 03,99</td>
+            </tr>
+            <tr>
+              <td>Laranja Lima</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Laranja Bahia</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Limão</td>
+              <td>R$ 02,99</td>
+            </tr>
+            <tr>
+              <td>Lima</td>
+              <td>R$ 05,99</td>
+            </tr>
+            <tr>
+              <td>Maçã</td>
+              <td>R$ 11,99</td>
+            </tr>
+            <tr>
+              <td>Maçã Verde</td>
+              <td>R$ 16,99</td>
+            </tr>
+            <tr>
+              <td>Maça Importada</td>
+              <td>R$ 16,99</td>
+            </tr>
+            <tr>
+              <td>Mamão</td>
+              <td>R$ 05,99</td>
+            </tr>
+            <tr>
+              <td>Mamão Havai</td>
+              <td>R$ 05,99</td>
+            </tr>
+            <tr>
+              <td>Manga</td>
+              <td>R$ 03,99</td>
+            </tr>
+            <tr>
+              <td>Maracujá</td>
+              <td>R$ 06,75</td>
+            </tr>
+            <tr>
+              <td>Melancia</td>
+              <td>R$ 02,99</td>
+            </tr>
+            <tr>
+              <td>Melão</td>
+              <td>R$ 04,49</td>
+            </tr>
+            <tr>
+              <td>Morango</td>
+              <td>R$ 42,99</td>
+            </tr>
+            <tr>
+              <td>Maçã Sacolinha</td>
+              <td>R$ 11,99</td>
+            </tr>
+            <tr>
+              <td>Pinha</td>
+              <td>R$ 10,99</td>
+            </tr>
+            <tr>
+              <td>Pera</td>
+              <td>R$ 12,99</td>
+            </tr>
+            <tr>
+              <td>Pêssego</td>
+              <td>R$ 16,99</td>
+            </tr>
+            <tr>
+              <td>Tangerina</td>
+              <td>R$ 06,49</td>
+            </tr>
+            <tr>
+              <td>Uva Roxa</td>
+              <td>R$ 14,99</td>
+            </tr>
+            <tr>
+              <td>Uva Verde</td>
+              <td>R$ 14,99</td>
+            </tr>
+            <tr>
+              <td>Uva Importada</td>
+              <td>R$ 29,99</td>
+            </tr>
+            <tr>
+              <td>Amendoim</td>
+              <td>R$ 14,99</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th>Verduras e Legumes</th>
+              <th>Preço</th>
+            </tr>
+            <tr>
+              <td>Alho</td>
+              <td>R$ 39,99</td>
+            </tr>
+            <tr>
+              <td>Abóbora</td>
+              <td>R$ 02,99</td>
+            </tr>
+            <tr>
+              <td>Abobrinha</td>
+              <td>R$ 06,49</td>
+            </tr>
+            <tr>
+              <td>Aipim</td>
+              <td>R$ 05,99</td>
+            </tr>
+            <tr>
+              <td>Batatinha</td>
+              <td>R$ 05,49</td>
+            </tr>
+            <tr>
+              <td>Batata Doce</td>
+              <td>R$ 06,49</td>
+            </tr>
+            <tr>
+              <td>Batata Yacon</td>
+              <td>R$ 16,99</td>
+            </tr>
+            <tr>
+              <td>Beringela</td>
+              <td>R$ 04,99</td>
+            </tr>
+            <tr>
+              <td>Beterraba</td>
+              <td>R$ 04,99</td>
+            </tr>
+            <tr>
+              <td>Cebola Branca</td>
+              <td>R$ 04,99</td>
+            </tr>
+            <tr>
+              <td>Cebola Roxa</td>
+              <td>R$ 07,99</td>
+            </tr>
+            <tr>
+              <td>Cenoura</td>
+              <td>R$ 04,99</td>
+            </tr>
+            <tr>
+              <td>Chuchu</td>
+              <td>R$ 02,99</td>
+            </tr>
+            <tr>
+              <td>Gengibre</td>
+              <td>R$ 15,99</td>
+            </tr>
+            <tr>
+              <td>Inhame</td>
+              <td>R$ 12,99</td>
+            </tr>
+            <tr>
+              <td>Inhame Paulista</td>
+              <td>R$ 14,99</td>
+            </tr>
+            <tr>
+              <td>Jiló</td>
+              <td>R$ 08,99</td>
+            </tr>
+            <tr>
+              <td>Maxixe</td>
+              <td>R$ 08,99</td>
+            </tr>
+            <tr>
+              <td>Pepino</td>
+              <td>R$ 03,99</td>
+            </tr>
+            <tr>
+              <td>Pepino Japonês</td>
+              <td>R$ 08,99</td>
+            </tr>
+            <tr>
+              <td>Pimentão</td>
+              <td>R$ 08,99</td>
+            </tr>
+            <tr>
+              <td>Pimenta</td>
+              <td>R$ 29,99</td>
+            </tr>
+            <tr>
+              <td>Quiabo</td>
+              <td>R$ 07,99</td>
+            </tr>
+            <tr>
+              <td>Repolho</td>
+              <td>R$ 07,49</td>
+            </tr>
+            <tr>
+              <td>Repolho Roxo</td>
+              <td>R$ 10,99</td>
+            </tr>
+            <tr>
+              <td>Tomate</td>
+              <td>R$ 39,99</td>
+            </tr>
+            <tr>
+              <td>Tomate Cereja</td>
+              <td>R$ 33,99</td>
+            </tr>
+            <tr>
+              <td>Vagem</td>
+              <td>R$ 14,99</td>
+            </tr>
+            <tr>
+              <td>Acelga</td>
+              <td>R$ 10,99</td>
+            </tr>
+            <tr>
+              <td>Agrião</td>
+              <td>R$ 02,99</td>
+            </tr>
+            <tr>
+              <td>Rúcula</td>
+              <td>R$ 02,99</td>
+            </tr>
+            <tr>
+              <td>Brócolis</td>
+              <td>R$ 23,99</td>
+            </tr>
+            <tr>
+              <td>Couve Flor</td>
+              <td>R$ 23,99</td>
+            </tr>
+            <tr>
+              <td>Pimentão AM/VERM</td>
+              <td>R$ 12,99</td>
+            </tr>
+            <tr>
+              <td>Alface USA</td>
+              <td>R$ 23,99</td>
+            </tr>
+            <tr>
+              <td>Milho</td>
+              <td>R$ 01,20</td>
+            </tr>
+            <tr>
+              <td>Espinafre</td>
+              <td>R$ 02,99</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <div id="atendimento">
         <h3>Atendimento</h3>
         <img src="img/mail.png" alt="Login ou Cadastro" />
         <form action="">
@@ -71,329 +381,20 @@
           <textarea
             name="conteudo"
             id="conteudo"
+            rows="10"
             placeholder="Escreva sua Reclamação, Elogio ou Dúvida"
             required
           ></textarea>
           <br />
-          <button type="submit">Enviar</button>
-          <button type="reset">Apagar</button>
+          <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+          </div>
         </form>
       </div>
-      <section>
-        <h3>Tabela Hortifruti:</h3>
-        <table border="1px">
-          <tr>
-            <th>Frutas</th>
-            <th>Preço</th>
-          </tr>
-          <tr>
-            <td>Abacate</td>
-            <td>R$ 08,99</td>
-          </tr>
-          <tr>
-            <td>Abacaxi</td>
-            <td>R$ 07,49</td>
-          </tr>
-          <tr>
-            <td>Ameixa Fresca</td>
-            <td>R$ 19,99</td>
-          </tr>
-          <tr>
-            <td>Atemoia</td>
-            <td>R$ 11,99</td>
-          </tr>
-          <tr>
-            <td>Banana da Prata</td>
-            <td>R$ 05,99</td>
-          </tr>
-          <tr>
-            <td>Banana da Terra</td>
-            <td>R$ 03,99</td>
-          </tr>
-          <tr>
-            <td>Banana d'Água</td>
-            <td>R$ 05,99</td>
-          </tr>
-          <tr>
-            <td>Banana Maçã</td>
-            <td>R$ 05,99</td>
-          </tr>
-          <tr>
-            <td>Coco Seco</td>
-            <td>R$ 10,99</td>
-          </tr>
-          <tr>
-            <td>Caqui</td>
-            <td>R$ 14,99</td>
-          </tr>
-          <tr>
-            <td>Goiaba</td>
-            <td>R$ 04,99</td>
-          </tr>
-          <tr>
-            <td>Graviola</td>
-            <td>R$ 02,99</td>
-          </tr>
-          <tr>
-            <td>Kiwi</td>
-            <td>R$ 29,99</td>
-          </tr>
-          <tr>
-            <td>Laranja</td>
-            <td>R$ 03,99</td>
-          </tr>
-          <tr>
-            <td>Laranja Lima</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>Laranja Bahia</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>Limão</td>
-            <td>R$ 02,99</td>
-          </tr>
-          <tr>
-            <td>Lima</td>
-            <td>R$ 05,99</td>
-          </tr>
-          <tr>
-            <td>Maçã</td>
-            <td>R$ 11,99</td>
-          </tr>
-          <tr>
-            <td>Maçã Verde</td>
-            <td>R$ 16,99</td>
-          </tr>
-          <tr>
-            <td>Maça Importada</td>
-            <td>R$ 16,99</td>
-          </tr>
-          <tr>
-            <td>Mamão</td>
-            <td>R$ 05,99</td>
-          </tr>
-          <tr>
-            <td>Mamão Havai</td>
-            <td>R$ 05,99</td>
-          </tr>
-          <tr>
-            <td>Manga</td>
-            <td>R$ 03,99</td>
-          </tr>
-          <tr>
-            <td>Maracujá</td>
-            <td>R$ 06,75</td>
-          </tr>
-          <tr>
-            <td>Melancia</td>
-            <td>R$ 02,99</td>
-          </tr>
-          <tr>
-            <td>Melão</td>
-            <td>R$ 04,49</td>
-          </tr>
-          <tr>
-            <td>Morango</td>
-            <td>R$ 42,99</td>
-          </tr>
-          <tr>
-            <td>Maçã Sacolinha</td>
-            <td>R$ 11,99</td>
-          </tr>
-          <tr>
-            <td>Pinha</td>
-            <td>R$ 10,99</td>
-          </tr>
-          <tr>
-            <td>Pera</td>
-            <td>R$ 12,99</td>
-          </tr>
-          <tr>
-            <td>Pêssego</td>
-            <td>R$ 16,99</td>
-          </tr>
-          <tr>
-            <td>Tangerina</td>
-            <td>R$ 06,49</td>
-          </tr>
-          <tr>
-            <td>Uva Roxa</td>
-            <td>R$ 14,99</td>
-          </tr>
-          <tr>
-            <td>Uva Verde</td>
-            <td>R$ 14,99</td>
-          </tr>
-          <tr>
-            <td>Uva Importada</td>
-            <td>R$ 29,99</td>
-          </tr>
-          <tr>
-            <td>Amendoim</td>
-            <td>R$ 14,99</td>
-          </tr>
-        </table>
-        <br />
-        <table border="1px">
-          <tr>
-            <th>Verduras e Legumes</th>
-            <th>Preço</th>
-          </tr>
-          <tr>
-            <td>Alho</td>
-            <td>R$ 39,99</td>
-          </tr>
-          <tr>
-            <td>Abóbora</td>
-            <td>R$ 02,99</td>
-          </tr>
-          <tr>
-            <td>Abobrinha</td>
-            <td>R$ 06,49</td>
-          </tr>
-          <tr>
-            <td>Aipim</td>
-            <td>R$ 05,99</td>
-          </tr>
-          <tr>
-            <td>Batatinha</td>
-            <td>R$ 05,49</td>
-          </tr>
-          <tr>
-            <td>Batata Doce</td>
-            <td>R$ 06,49</td>
-          </tr>
-          <tr>
-            <td>Batata Yacon</td>
-            <td>R$ 16,99</td>
-          </tr>
-          <tr>
-            <td>Beringela</td>
-            <td>R$ 04,99</td>
-          </tr>
-          <tr>
-            <td>Beterraba</td>
-            <td>R$ 04,99</td>
-          </tr>
-          <tr>
-            <td>Cebola Branca</td>
-            <td>R$ 04,99</td>
-          </tr>
-          <tr>
-            <td>Cebola Roxa</td>
-            <td>R$ 07,99</td>
-          </tr>
-          <tr>
-            <td>Cenoura</td>
-            <td>R$ 04,99</td>
-          </tr>
-          <tr>
-            <td>Chuchu</td>
-            <td>R$ 02,99</td>
-          </tr>
-          <tr>
-            <td>Gengibre</td>
-            <td>R$ 15,99</td>
-          </tr>
-          <tr>
-            <td>Inhame</td>
-            <td>R$ 12,99</td>
-          </tr>
-          <tr>
-            <td>Inhame Paulista</td>
-            <td>R$ 14,99</td>
-          </tr>
-          <tr>
-            <td>Jiló</td>
-            <td>R$ 08,99</td>
-          </tr>
-          <tr>
-            <td>Maxixe</td>
-            <td>R$ 08,99</td>
-          </tr>
-          <tr>
-            <td>Pepino</td>
-            <td>R$ 03,99</td>
-          </tr>
-          <tr>
-            <td>Pepino Japonês</td>
-            <td>R$ 08,99</td>
-          </tr>
-          <tr>
-            <td>Pimentão</td>
-            <td>R$ 08,99</td>
-          </tr>
-          <tr>
-            <td>Pimenta</td>
-            <td>R$ 29,99</td>
-          </tr>
-          <tr>
-            <td>Quiabo</td>
-            <td>R$ 07,99</td>
-          </tr>
-          <tr>
-            <td>Repolho</td>
-            <td>R$ 07,49</td>
-          </tr>
-          <tr>
-            <td>Repolho Roxo</td>
-            <td>R$ 10,99</td>
-          </tr>
-          <tr>
-            <td>Tomate</td>
-            <td>R$ 39,99</td>
-          </tr>
-          <tr>
-            <td>Tomate Cereja</td>
-            <td>R$ 33,99</td>
-          </tr>
-          <tr>
-            <td>Vagem</td>
-            <td>R$ 14,99</td>
-          </tr>
-          <tr>
-            <td>Acelga</td>
-            <td>R$ 10,99</td>
-          </tr>
-          <tr>
-            <td>Agrião</td>
-            <td>R$ 02,99</td>
-          </tr>
-          <tr>
-            <td>Rúcula</td>
-            <td>R$ 02,99</td>
-          </tr>
-          <tr>
-            <td>Brócolis</td>
-            <td>R$ 23,99</td>
-          </tr>
-          <tr>
-            <td>Couve Flor</td>
-            <td>R$ 23,99</td>
-          </tr>
-          <tr>
-            <td>Pimentão AM/VERM</td>
-            <td>R$ 12,99</td>
-          </tr>
-          <tr>
-            <td>Alface USA</td>
-            <td>R$ 23,99</td>
-          </tr>
-          <tr>
-            <td>Milho</td>
-            <td>R$ 01,20</td>
-          </tr>
-          <tr>
-            <td>Espinafre</td>
-            <td>R$ 02,99</td>
-          </tr>
-        </table>
-      </section>
     </main>
-    <footer>
-      <h3>Contanto:</h3>
+    <footer id="contato">
+      <h3>Contato:</h3>
       <div>
         <p>Av. Aliomar Baleeiro, 73 - São Cristóvão, Salvador - BA</p>
       </div>
