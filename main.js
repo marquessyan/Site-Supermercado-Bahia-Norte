@@ -17,3 +17,16 @@
 document.getElementById("light-dark").addEventListener("click", function () {
   document.body.classList.toggle("dark-mode");
 });
+
+// function toggleClearButton() {
+//   const input = document.getElementById("search");
+//   const button = document.getElementById("clear-button");
+//   button.style.display = input.value ? "block" : "none";
+// }
+
+function clearSearch() {
+  const input = document.getElementById("search");
+  input.value = "";
+  // toggleClearButton();
+  input.focus();
+}
