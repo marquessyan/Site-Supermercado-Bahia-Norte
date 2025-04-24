@@ -136,7 +136,6 @@ main form button {
 
 main form button[type="reset"] {
   background-color: #c0392b;
-  /* margin-left: 10px; */
 }
 
 main form button:hover {
