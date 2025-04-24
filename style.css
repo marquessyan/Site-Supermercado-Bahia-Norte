@@ -43,9 +43,6 @@ input[type="search"] {
   width: 100%;
 }
 
-input[type="search"]::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-}
 
 header div button {
   border: 1px solid #ccc;
