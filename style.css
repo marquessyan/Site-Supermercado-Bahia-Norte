@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background-color: #2c3e50;
+  background-color: #0056a1;
   color: white;
   padding: 20px;
   text-align: center;
@@ -77,9 +77,10 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #1c3044;
+  background-color: #e32025;
   width: 100%;
   align-self: center;
+  transition: 1s;
 }
 
 nav a {
@@ -170,7 +171,7 @@ table th {
   color: white;
 }
 
-footer {
+/* footer {
   background-color: #2c3e50;
   color: white;
   text-align: center;
@@ -180,7 +181,7 @@ footer {
 
 footer div {
   margin: 5px 0;
-}
+} */
 
 @media (max-width: 768px) {
   table th,
@@ -199,7 +200,7 @@ body.dark-mode header {
 }
 
 body.dark-mode nav {
-  background-color: #1c1c1c;
+  background-color: #333;
 }
 
 body.dark-mode nav a {
@@ -230,4 +231,94 @@ body.dark-mode table td {
 
 body.dark-mode footer {
   background-color: #1f1f1f;
+}
+
+/* footer */
+
+.rodape {
+  background-color: #0056a1;
+  color: white;
+  height: auto;
+  width: 100%;
+  font-size: 14px;
+  font-family: helvetica;
+  margin-top: 40px;
+}
+.rodape a {
+  text-decoration: none;
+  color: white;
+}
+.rodape a:hover {
+  color: #e32025;
+}
+.rodape p {
+  margin-bottom: 5px;
+}
+.contato {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e32025;
+  color: #ffffff;
+  border: 2px solid #e32025;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.mídia {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #e32025;
+  color: #ffffff;
+  border: 2px solid #e32025;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.rodape-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  align-items: stretch;
+  padding: 60px 10px 40px 10px;
+}
+.rodape-div-1,
+.rodape-div-2,
+.rodape-div-3,
+.rodape-div-4 {
+  display: flex;
+  width: calc(100% / 4 - 20px);
+  padding: 10px;
+}
+.rodape span {
+  font-size: 20px;
+  color: #e32025;
+}
+.juridico {
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+}
+.copyright {
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+}
+/*mobile*/
+@media (max-width: 768px) {
+  .rodape-div-1,
+  .rodape-div-2,
+  .rodape-div-3,
+  .rodape-div-4 {
+    width: calc(50% - 20px);
+    padding: 10px;
+  }
+  .rodape-div {
+    padding: 60px 0px 40px 0px;
+  }
 }
